@@ -110,7 +110,7 @@ code {
 }
 iframe {
     width: 100%;
-    height: auto;
+    /* height: auto; */
     margin-bottom: 2em;
     border-radius: 20px;
 }
@@ -205,6 +205,7 @@ footer a {
     table {
         margin-inline: auto;
         margin-block: 8rem;
+        width: 70%;
     }
 }
 
@@ -237,9 +238,6 @@ footer a {
     article h2{
         font-weight: bold;
     }      
-    table{
-        width: 70%;
-    }
     iframe{
         width: 50%;
         height: 200px;
